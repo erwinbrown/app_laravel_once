@@ -64,3 +64,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Comandos
+ composer create-project --prefer-dist laravel/laravel:^11.4 app_laravel_once
+
+git init
+git config --global --add safe.directory C:/laragon/www/app_laravel_once
+git checkout -b "main" && git add . && git commit -m "main base larevel 11"
+
+git remote add origin https://github.com/erwinbrown/app_laravel_once.git
+
+git remote set-url origin https://github.com/erwinbrown/app_laravel_once
+https://github.com/erwinbrown/app_laravel_once
+
+git reset 
+git remote -v
+git pull --rebase
+git init
+git add -A
+git commit -m "Add your commit"
+git branch -M main
+git push origin main --force
+
